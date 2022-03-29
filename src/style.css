@@ -1,1 +1,29 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+.carta {
+  margin: 0 auto;
+  width: 120px;
+  height: 180px;
+  border: 1px solid #000;
+  border-radius: 3px;
+  color: blue;
+}
+
+#palo,
+#palodos {
+  font-size: 45px;
+}
+#numero {
+  display: block;
+  font-size: 60px;
+  text-align: center;
+}
+
+#palo {
+  margin-left: 4%;
+}
+#palodos {
+  float: right;
+  margin-right: 4%;
+  margin-bottom: 6%;
+}
